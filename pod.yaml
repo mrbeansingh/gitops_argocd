@@ -11,6 +11,34 @@ spec:
       image: nginx
       ports:
        - containerPort: 80
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testpod
+
+spec:
+   containers:
+    - name: paji-con4
+      image: nginx
+      ports:
+       - containerPort: 80
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testpod1
+
+spec:
+   containers:
+    - name: paji-con2
+      image: nginx
+      ports:
+       - containerPort: 80
+
+
+
      
    
        
