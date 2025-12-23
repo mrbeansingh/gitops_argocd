@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: paji-pod1
+  # labels:
+  #   paji: udai
+   
+spec:
+   containers:
+    - name: paji-con
+      image: nginx
+      ports:
+       - containerPort: 80
+     
+   
+       
+
+
+
+
+
+# ---
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: udai-pod
+# spec:
+#    containers:
+#     - name: paji-con1
+#       image: linuxserver/firefox
+#       ports:
+#        - containerPort: 3000
+# ---
+       
+
+        
+
+
