@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: paji-pod1
+  name: paji-pod2
   # labels:
   #   paji: udai
    
